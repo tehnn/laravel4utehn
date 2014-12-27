@@ -14,11 +14,11 @@ class HomeController extends BaseController {
       |
      */
 
-    public function showWelcome() {
-        return View::make('hello');
+    public function Index() {
+        return View::make('site/index');
     }
 
-    public function tehnn() {
+    public function Tehnn() {
         return View::make('test.test');
     }
 

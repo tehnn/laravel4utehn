@@ -13,5 +13,9 @@ class MyController extends BaseController {
             'name'=>'UTEHN PHNU'
         ));
     }
+    
+    public function show2(){
+        return "hello";
+    }
 
 }
