@@ -8,8 +8,10 @@
 class MyController extends BaseController {
 
     public function show() {
-       $data=array('name'=>'UTEHN');
-        return View::make('test.vw1')->with($data);
+       
+        return View::make('test.vw1')->with(array(
+            'name'=>'UTEHN PHNU'
+        ));
     }
 
 }
