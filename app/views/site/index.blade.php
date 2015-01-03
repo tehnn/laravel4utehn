@@ -5,3 +5,7 @@
     <li><a href="{{ URL::to('show2') }}">Link2</a></li>
     <li><a href="{{ URL::to('tehn') }}">Link3</a></li>
 </ul>
+<form action="post" method="post">
+    <input type="text" name="name">
+    <input type="submit"> 
+</form>

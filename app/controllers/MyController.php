@@ -17,5 +17,9 @@ class MyController extends BaseController {
     public function show2(){
         return "hello";
     }
+    
+    public function showpost(){
+        return View::make('test.post');
+    }
 
 }
